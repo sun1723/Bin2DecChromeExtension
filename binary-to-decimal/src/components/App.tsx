@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h5>Hello From React App</h5>
+        <h5>Binary to Decimal Converter</h5>
            <Form/>
       </header>
     </div>

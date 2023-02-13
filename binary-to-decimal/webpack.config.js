@@ -2,7 +2,10 @@ const path = require("path");
 
 module.exports = {
 	entry: "./src/index.tsx",
-	mode: "production",
+	mode: "development",
+	devServer: {
+		hot: true,
+	},
 	module: {
 		rules: [
 			{
