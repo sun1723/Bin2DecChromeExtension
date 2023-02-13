@@ -1,5 +1,6 @@
 import {TextInput} from "../TextInput/TextInput";
 import {useForm} from "./talons/useForm";
+import defaultClasses from './Form.module.scss';
 
 const Form = () => {
     const talonsProps = useForm();
@@ -10,10 +11,10 @@ const Form = () => {
             <TextInput onSubmitForm={onSubmitForm}/>
             <div>
                 <h5>Result:</h5>
-                <span>{result}</span>
+                <span className={defaultClasses.result}>{result}</span>
             </div>
         </div>
     )
 }
 
-export default Form
+export default Form;
