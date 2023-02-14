@@ -1,4 +1,5 @@
 const path = require("path");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
 	entry: "./src/index.tsx",
@@ -38,11 +39,17 @@ module.exports = {
 		],
 	},
 	resolve: {
-		extensions: [".tsx", ".ts", ".js"],
+		extensions: [".tsx", ".ts",".js"],
 	},
+	plugins: [
+		new HtmlWebpackPlugin({
+			template: './public/index.html' //relative to root of the application
+		})
+	],
 	output: {
 		filename: "content.js",
 		path: path.resolve(__dirname, "..", "extension"),
 		publicPath: "/public"
 	},
+	devtool: 'cheap-module-source-map'
 };
