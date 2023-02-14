@@ -1,0 +1,23 @@
+.App {
+  padding: 10px;
+  text-align: center;
+  background: url('https://img.freepik.com/free-vector/white-digital-matrix-binary-code-numbers-background_1017-25332.jpg?w=900&t=st=1676337524~exp=1676338124~hmac=8f32b2d0001f608d6270cbe40bf2b7e094bbcc033f887de1139485d7e9b7edd3') center;
+  position: relative;
+  z-index: 999;
+
+
+  &::before {
+      content: '';
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: -1;
+    }
+}
+
+.title {
+  color: white;
+}

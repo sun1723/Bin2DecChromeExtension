@@ -1,14 +1,18 @@
 .form {
-  min-height: 300px;
+  min-height: 200px;
   min-width: 200px;
   padding: 10px;
   background-color: aquamarine;
   display: flex;
   flex-direction: column;
   border-radius: 12px;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
 
   label {
     font-size: 16px;
+    font-weight: 500;
     color: black;
   }
 
@@ -16,4 +20,14 @@
     font-size: 12px;
     color: orangered;
   }
+
+  input {
+    border-radius: 10px;
+  }
 }
+
+.button {
+  width: 50%;
+  border-radius: 120px;
+}
+
