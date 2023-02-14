@@ -25,3 +25,6 @@ constraints:
 ## Bonus features
 
 -   [x] User can enter a variable number of binary digits
+
+# Note:
+this project is inspired by appIdeas: https://github.com/florinpop17/app-ideas
