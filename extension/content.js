@@ -44910,14 +44910,6 @@ __webpack_require__.r(__webpack_exports__);
 
 var rootElement = document.createElement("div");
 rootElement.id = "react-chrome-app";
-// const globalStyles = document.createElement("style");
-// globalStyles.innerHTML = `
-//   #${rootElement.id} {
-//   z-index: 999;
-//   }
-// `;
-// rootElement.appendChild(globalStyles);
-document.body.appendChild(rootElement);
 var root = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_2__.createRoot)(rootElement);
 root.render((0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)((react__WEBPACK_IMPORTED_MODULE_1___default().StrictMode), { children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_components_App__WEBPACK_IMPORTED_MODULE_4__["default"], {}) }));
 // If you want to start measuring performance in your app, pass a function
